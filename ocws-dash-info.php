@@ -3,11 +3,11 @@
 Plugin Name: OCWS Dashboard Info
 Plugin URI: http://oldcastleweb.com/pws/plugins
 Description: This plugin adds a dashboard widget, giving information about the version number of the OCWS Basic package.
-Version: 0.1
+Version: 0.1.1
 Author: Paul Taylor
 Author URI: http://oldcastleweb.com/pws/about
 License: GPL2
-GitHub Plugin URI: https://github.com/pftaylor61/ocws-admin-bar
+GitHub Plugin URI: https://github.com/pftaylor61/ocws-dash-info
 GitHub Branch:     master
 */
 /*  Copyright 2016  Paul Taylor  (email : info@oldcastleweb.com)
@@ -27,7 +27,7 @@ GitHub Branch:     master
 */
 
 /* Initialize */
-define("OCWSDW_VNUM", 0.1);
+define("OCWSDW_VNUM", "0.1.1");
 $ocwsdw_content = "<p>The OCWS Basic Package consists of Wordpress, and a variety of plugins, specially chosen to make the site work easily. Also included in the OCWS Qohelet theme.</p>\n";
 define("OCWSDW_HEADER", "OCWS Basic Package (Version ".OCWSDW_VNUM.")");
 define("OCWSDW_CONTENT", $ocwsdw_content);
